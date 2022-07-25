@@ -1,0 +1,153 @@
+.container-fluid {
+    background-color: #aefae4;
+    top: 0px;
+    height: 80px;
+    position: absolute;
+}
+
+.navbar-brand {
+    cursor: pointer;
+    font-size: 30px;
+    letter-spacing: 3px;
+    margin-left: 100px;
+    margin-top: -9px;
+}
+
+#home {
+    position: absolute;
+    left: 970px;
+    top: 25px;
+    color: black;
+    font-size: 16px;
+}
+
+#home:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: black;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+
+#home:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+#gall {
+    position: absolute;
+    left: 1080px;
+    top: 25px;
+    color: black;
+    font-size: 16px;
+}
+
+#gall:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: black;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+
+#gall:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+#skill {
+    position: absolute;
+    left: 1200px;
+    top: 25px;
+    color: black;
+    font-size: 16px;
+}
+
+#skill:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: black;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+
+#skill:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+#about {
+    position: absolute;
+    left: 1300px;
+    top: 25px;
+    color: black;
+    font-size: 16px;
+}
+
+#about:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: black;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+
+#about:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+* {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+/* body { background-image: url('../assets/images/bg_figma.jpg'); background-position: fixed;
+background-repeat: no-repeat; background-size: 100%; } */
+
+.swetha {
+    display: inline;
+}
+
+.swetha img {
+    margin-top: 10%;
+    height: 700px;
+    width: 600px;
+    margin-left: 5%;
+}
+
+.text {
+    margin-left: 50%;
+    color: black;
+    margin-top: -35%;
+    height: 60%;
+    width: 500px;
+}
+
+.table {
+    font-size: 20px;
+}
+
+footer {
+    margin-top: 6%;
+}

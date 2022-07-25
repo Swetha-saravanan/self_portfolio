@@ -1,0 +1,133 @@
+h3 {
+    font-size: 30px;
+    margin-left: 20%;
+    padding: 2%;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.container-fluid {
+    background-color: #aefae4;
+    top: 0px;
+    height: 80px;
+    position: absolute;
+}
+
+.navbar-brand {
+    cursor: pointer;
+    font-size: 30px;
+    letter-spacing: 3px;
+    margin-left: 100px;
+    margin-top: -9px;
+}
+
+#home {
+    position: absolute;
+    left: 970px;
+    top: 25px;
+    color: black;
+    font-size: 16px;
+}
+
+#home:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: black;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+
+#home:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+#gall {
+    position: absolute;
+    left: 1080px;
+    top: 25px;
+    color: black;
+    font-size: 16px;
+}
+
+#gall:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: black;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+
+#gall:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+#skill {
+    position: absolute;
+    left: 1200px;
+    top: 25px;
+    color: black;
+    font-size: 16px;
+}
+
+#skill:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: black;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+
+#skill:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+#about {
+    position: absolute;
+    left: 1300px;
+    top: 25px;
+    color: black;
+    font-size: 16px;
+}
+
+#about:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: black;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+
+#about:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+* {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+h3 {
+    font-family: 'Raleway', sans-serif;
+}
